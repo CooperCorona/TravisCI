@@ -35,7 +35,7 @@ namespace TravisCILab
         {
             Assert.AreEqual(100, Program.Power("10", "2"));
             Assert.AreEqual(81, Program.Power("3", "4"));
-            Assert.AreEqual(65, Program.Power("4", "3"));
+            Assert.AreEqual(64, Program.Power("4", "3"));
         }
 
         // Implement 3 tests per operation, following a similar pattern as above
